@@ -1,17 +1,13 @@
 package Sort;
-
 import java.util.Scanner;
-
 public class BubbleSort {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int num;
 		System.out.println("Enter number of elements in array : ");
 		num = scanner.nextInt();
 		int arr[] = new int[num];
-		int n = arr.length;
-		
+		int n = arr.length;		
 		for(int i=0; i < n ;i++) {
 			arr[i] = scanner.nextInt();
 		}
@@ -39,6 +35,4 @@ public class BubbleSort {
 		}
 		scanner.close();
 	}
-
-
 }
